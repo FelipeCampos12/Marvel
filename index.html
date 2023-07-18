@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Marvel </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src= "./src/imagens/card-logo.png" alt="Logo marvel" srcset=""
+    >
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"><strong> Selecione um personagem</strong></h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="capitao-america" data-name ="  Capitão América " data-description="Steve Rogers, ex soldado do exército dos EUA, que a partir de um soro experimental, obteve super força, agilidade e resistência. Possui um escudo, que o torna o clássico dos vingadores. ">
+                    <img src="./src/imagens/card-capitao-america.jpg" alt="Personagem Capitão América"
+                    width="123px" height="190px" >
+                  
+                </li>
+                <li class="personagem" id="arqueiro" data-name =" Arqueiro" data-description="Clint Barton, arqueiro e mestre em combate corpo a corpo. Possui excelente precisão com arco e flecha e habilidades acrobáticas.">
+                    
+                    <img src="./src/imagens/card-arqueiro.jpg" alt="Personagem Arqueiro">
+                </li>
+                <li class="personagem" id="wanda-maximoff" data-name ="Wanda Maximoff " data-description="Conhecida como Feiticeira Escarlate, possui poderes de manipulação da realidade: pode alterar a matéria, controlar mentes, criar ilusões e lançar explosões de energia. Por possuir conexão com a Fonte da Vida, suas magias são as mais poderosas do Universo Marvel.">
+                    <img src="./src/imagens/card-wanda-maximoff.jpg" alt="Personagem Wanda Maximoff"
+                    width="123px" height="190px" >
+                </li>
+                <li class="personagem" id="homem-aranha" data-name =" Homem Aranha"  data-description="Peter Parker, possui habilidades aracnídeas, força sobre-humana, agilidade, reflexos aprimorados e a capacidade de escalar paredes e habilidade de lançar teias artificiais. Tem o sentido aranha, um sentido de perigo aguçado que o alerta sobre ameaças iminentes.">
+
+                    <img src="./src/imagens/card-homem-aranha.jpg" alt="Personagem Homem Aranha"
+                    width="123px" height="190px" >
+                </li>
+                <li class="personagem" id="hulk" data-name =" Hulk "  data-description="O Incrível Huck, possui superforça e invulnerabilidade. Ele tem habilidades de força, salto a longa distância e uma grande resistência física, o que o torna quase indestrutível.">
+                   <img src="./src/imagens/card-hulk.jpg" alt="Personagem Hulk">
+                </li>
+                <li class="personagem" id="doutor-estranho" data-name =" Doutor Estranho " data-description="Stephen Strange, é um poderoso feiticeiro, com domínio das artes místicas e manipulação da energia mágica, como conjurar escudos protetores, lançar feitiços ofenfisos, abrir portais dimensionais, manipular o tempo, curar ferimentos e se comunicar com entidades místicas. ">
+                
+                    <img src="./src/imagens/card-doutor-estranho.jpg" alt="Personagem Doutor Estranho">
+                </li>
+                <li class="personagem" id="homem-de-ferro" data-name =" Homem de Ferro" data-description="Tony Stark, possui uma armadura tecnologicamente avançada, a qual fornece voo, força aumentada, sistemas de armas avançadas e proteção resistente. É um gênio inventor e possui um intelecto brilhante.">
+                    <img src="./src/imagens/card-homem-de-ferro.jpg" alt="Personagem  Homem de Ferro">
+                </li>
+                <li class="personagem" id="thor" data-name =" Thor " data-description="Thor é um poderoso deus asgardiano, possui uma força sobre-humana, resistência aprimorada e a habilidade de voar com seu martelo místico, o Mjolnir. Ele ambém controla os elementos, podendo convocar relâmpagos e manipular o clima."> 
+                    <img src="./src/imagens/card-thor.jpg" alt="Personagem Thor">
+                </li>
+                <li class="personagem" id="visao" data-name="Visão" data-description="Visão Sintezóide, tem uma força sobre-humana, velocidade, agilidade, resistência, capacidade de voar e se tornar intangível, possui uma mente altamente avançada e pode disparar feixes de energia poderosos de sua testa. " >
+                    <img src="./src/imagens/card-visao.jpg" alt="Visão">
+                </li>
+                <li class="personagem" id="viuva-negra" data-name="Viúva Negra" data-description="Natasha Romanoff, é uma espiã altamente treinada, com técnicas de infiltração, disfarce e manipulação. É mestra em artes marciais e armas de fogo." >
+                    <img src="./src/imagens/card-viuva-negra.jpg" alt="Viúva Negra">
+               
+         </ul>
+               
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-capitao-america.png" alt="Personagem Selecionado"
+            >
+        
+            <div class="informacoes-personagem">
+            <h2 class="nome-personagem" id="nome-personagem"> Capitão América </h2>
+            <p class="descricao-personagem" id="descricao-personagem">"Conhecido como Steve Rogers. Foi um soldado do exército dos Estados Unidos durante a Segunda Guerra Mundial e recebeu um soro experimental que o transformou em um super soldado. Aumentando sua força, agilidade e resistência e com com seu escudo indestrutível, ele se torna um vingador clássico"
+
+            </p>
+        </div>
+        </section> 
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
